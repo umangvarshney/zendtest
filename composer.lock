@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4c0789f5bf2bb3afed5456729b9f19e3",
+    "hash": "83d1edc9a4c90e08b15d720ca1e354b7",
+    "content-hash": "4a2e1b3a25cdeccd80c57c570f52062e",
     "packages": [
         {
             "name": "doctrine/instantiator",
@@ -964,20 +965,20 @@
         },
         {
             "name": "zendframework/zend-authentication",
-            "version": "2.5.1",
+            "version": "2.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-authentication.git",
-                "reference": "7078362a412d5c4ef0e961551f97027eb9aa3152"
+                "reference": "1002b40baa9acb3f875cc77f4a2b4fc238b62170"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-authentication/zipball/7078362a412d5c4ef0e961551f97027eb9aa3152",
-                "reference": "7078362a412d5c4ef0e961551f97027eb9aa3152",
+                "url": "https://api.github.com/repos/zendframework/zend-authentication/zipball/1002b40baa9acb3f875cc77f4a2b4fc238b62170",
+                "reference": "1002b40baa9acb3f875cc77f4a2b4fc238b62170",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.23",
+                "php": ">=5.5",
                 "zendframework/zend-stdlib": "~2.5"
             },
             "require-dev": {
@@ -1022,7 +1023,7 @@
                 "Authentication",
                 "zf2"
             ],
-            "time": "2015-06-03 15:31:59"
+            "time": "2015-06-15 19:37:28"
         },
         {
             "name": "zendframework/zend-barcode",

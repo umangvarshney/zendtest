@@ -15,7 +15,29 @@ return array(
                 'options' => array(
                     'route'    => '/',
                     'defaults' => array(
+                        'controller' => 'Album\Controller\Album',
+                        'action'     => 'index',
+                    ),
+                ),
+            ),
+            
+            'test' => array(
+                'type' => 'Zend\Mvc\Router\Http\Literal',
+                'options' => array(
+                    'route'    => '/test',
+                    'defaults' => array(
                         'controller' => 'Application\Controller\Index',
+                        'action'     => 'test',
+                    ),
+                ),
+            ),
+            
+            'testhome' => array(
+                'type' => 'Zend\Mvc\Router\Http\Literal',
+                'options' => array(
+                    'route'    => '/index',
+                    'defaults' => array(
+                        'controller' => 'Application\Controller\Test',
                         'action'     => 'index',
                     ),
                 ),
@@ -73,7 +95,8 @@ return array(
     ),
     'controllers' => array(
         'invokables' => array(
-            'Application\Controller\Index' => 'Application\Controller\IndexController'
+            'Application\Controller\Index' => 'Application\Controller\IndexController',
+    		'Application\Controller\Test'  => 'Application\Controller\TestController'
         ),
     ),
     'view_manager' => array(
